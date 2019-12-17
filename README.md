@@ -86,7 +86,7 @@ Include a reference to the cookbook in a [Cheffile][cheffile] and run
     librarian-chef init
     cat >> Cheffile <<END_OF_CHEFFILE
     cookbook 'rvm',
-      :git => 'git://github.com/fnichol/chef-rvm.git', :ref => 'v0.10.1'
+      :git => 'git://github.com/fnichol/chef-rvm.git', :ref => 'v0.10.2'
     END_OF_CHEFFILE
     librarian-chef install
 
